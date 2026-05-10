@@ -4,16 +4,16 @@ kind: Deployment
 metadata:
   name: lms-project
   labels:
-    app: swiggy
+    app: lms-project
 spec:
   replicas: 3
   selector:
     matchLabels:
-      app: swiggy
+      app: lms-project
   template:
     metadata:
       labels:
-        app: swiggy
+        app: lms-project
     spec:
       containers:
       - name: cont-1
