@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: cont-1
-        image: maheesh1/custom-app:9
+        image: maheesh1/custom-app:11
         ports:
         - containerPort: 8080
 
