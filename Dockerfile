@@ -1,10 +1,8 @@
-# Use a base image with Java 21
 FROM eclipse-temurin:21-jre-alpine
 
 WORKDIR /app
 
-# Match the exact .war extension found in your target folder
-COPY target/*.war app.jar
+COPY target/*.jar app.jar
 
 EXPOSE 8080
 
